@@ -1,0 +1,163 @@
+row{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000000;
+  font-size: large;
+}
+.logo2{
+  position:relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: -20px;
+  border: #682f04 solid 2px;
+
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* background: linear-gradient(60deg, rgb(94, 91, 74), #faca57, #f5c9a8, #faca57, white); */
+  background: linear-gradient(60deg, #6e5d4e, #f7b733, #ffd194, #fff3e4);
+
+  background-size: 800% 800%;
+  animation: gradientAnimation 7s ease infinite;
+  color: #000000;
+}
+h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #502508;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: #fff 5px 5px 10px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-align: center;
+}
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+
+.recipe-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.783);
+  transition: 1s;
+  block-size: 100%;
+  margin: 20px; 
+  padding: 20px;
+  overflow: hidden;
+}
+
+.recipe-card:hover {
+  transform: scale(1.1);
+  background-color: #b0a5ff;
+  border: white solid 2px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit:cover;
+}
+.txt{
+
+  font-size: medium;
+  position: relative;
+
+}
+
+.container{
+  border-radius: 18px;
+  border: #000000 solid 4px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000000;
+}
+
+.form-control{
+  border: #000000 solid 3px;
+  place-content: center;
+}
+
+
+.form-control:hover{
+  transform: scale(1.05);
+}
+.contain{
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000000;
+}
+
+.text-center{
+  background-color: #fff;
+  color: #682f04;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:3.5em;
+
+}
+header  h1{
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  color:#7a4a13;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: #a9a4a4 5px 5px 10px;
+  font-weight: bold;
+}
+
+header  h5{
+  font-size: 0.5em;
+  font-family: 'Poppins', sans-serif;
+  color:#7a4a13;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: #a9a4a4 5px 5px 10px;
+}
+.row{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000000;
+  font-size: large;
+}
+.new-card{
+  position: center;
+  border-radius: 8px;
+  background-color: #000000;
+  color: #fff;
+  font-size: larger;
+  border: #fff solid 2px;
+  size: 2rem;
+}
+button:hover{
+  background-color: #682f04;
+  color: #fff;
+  font-size: larger;
+  border: #fff solid 2px;
+  size: 2rem;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    border-radius: 12px;
+  
+}
