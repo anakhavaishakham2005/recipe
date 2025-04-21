@@ -22,3 +22,5 @@ document.getElementById("create-recipe-form").addEventListener("submit", functio
     reader.readAsDataURL(image); // convert image to base64
   });
   
+
+js/script2.js

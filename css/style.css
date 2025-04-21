@@ -31,7 +31,7 @@ body {
 h3{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #502508;
-  font-size: 3em;
+  font-size: 1.5em;
   font-weight: bold;
   text-shadow: #fff 5px 5px 10px;
   text-transform: capitalize;
@@ -111,7 +111,7 @@ h3{
 header  h1{
   font-size: 1.5em;
   font-family: 'Poppins', sans-serif;
-  color:#7a4a13;
+  color:#572f00;
   text-align: center;
   text-decoration: underline;
   text-shadow: #a9a4a4 5px 5px 10px;
@@ -147,7 +147,7 @@ header  h5{
   border: #fff solid 2px;
   size: 2rem;
 }
-button:hover{
+.new-card:hover{
   background-color: #682f04;
   color: #fff;
   font-size: larger;
@@ -161,6 +161,7 @@ button{
     border-radius: 12px;
   
 }
+
 
 .marquee-container {
   width: 100%;
@@ -178,4 +179,22 @@ button{
 @keyframes marqueeMove {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-100%); }
+}
+
+.btn2{
+  background-color: #682f04;
+  border: #fff solid 2px;
+  size: 2rem;
+  padding: 10px 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 20px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+.btn2:hover{
+  background-color: black;
+  transform: scale(1.5);
+  border: #682f04 solid 2px;
 }
