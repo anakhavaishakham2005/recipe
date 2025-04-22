@@ -1,6 +1,8 @@
 # 🍲 Snackies
 A cozy place to explore & create delicious North & South Indian snacks! 🇮🇳✨
 
+🔗https://anakhavaishakham2005.github.io/recipe/
+
 # 🌟 About the Site
 Welcome to Snackies — your very own digital snack recipe book!
 
