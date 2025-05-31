@@ -6,7 +6,7 @@
   <title>Snackies</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/transition.css">
+  <link rel="stylesheet" href="css/transition.css">
   <style>
     * {
       margin: 0;
@@ -23,15 +23,7 @@
       justify-content: center;
       cursor: pointer;
       overflow: hidden;
-      animation: gradientAnimation 10s ease infinite;
       background: #f6d26e;
-      background-size: 400% 400%;
-    }
-
-    @keyframes gradientAnimation {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
     }
 
     .logo-wrapper {
@@ -48,11 +40,6 @@
       height: 100%;
       object-fit: cover;
       transform: scale(1.2); /* Crop out unwanted edges */
-    }
-
-    @keyframes zoomInOut {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.05); }
     }
 
     @media (max-width: 600px) {
